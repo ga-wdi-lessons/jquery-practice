@@ -76,6 +76,11 @@ CashRegister.prototype.calculateTotal = function(){
   return total;
 }
 
+var register = new CashRegister();
+register.entries.push(10.95)
+register.entries.push(1.95)
+console.log(register.calculateTotal())
+
 ```
 
 ## You do:
