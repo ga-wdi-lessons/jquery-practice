@@ -85,7 +85,7 @@ console.log(register.calculateTotal());
 
 ## You do:
 
-When the user submits a new number, `console.log` the number submitted, add it to the total, and `console.log` the new total
+When the user submits a new number, `console.log` the number submitted, add it to the entries array, and `console.log` the new total
 
 ## We do:
 
