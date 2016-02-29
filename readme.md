@@ -63,7 +63,7 @@ function CashRegister(){
   this.entries = [];
   this.els = {
     form: $("#entry"),
-    entries: $(#entries),
+    entries: $("#entries"),
     total: $("#newEntry")
   }
 }
