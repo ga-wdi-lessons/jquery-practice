@@ -51,6 +51,8 @@ A few things to look for:
 - Updating the HTML for an element
 - Reading the HTML from an element
 - listening to events
+- create a new element
+- get value of input
 
 ## We do: Complete Pseudocode for this application
 
