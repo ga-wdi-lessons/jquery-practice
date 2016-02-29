@@ -77,9 +77,9 @@ CashRegister.prototype.calculateTotal = function(){
 }
 
 var register = new CashRegister();
-register.entries.push(10.95)
-register.entries.push(1.95)
-console.log(register.calculateTotal())
+register.entries.push(10.95);
+register.entries.push(1.95);
+console.log(register.calculateTotal());
 
 ```
 
