@@ -66,6 +66,10 @@ DO EET
 
 Complete application functionality.
 
+## Want a challenge?
+
+- Try take an object oriented approach to this problem.
+
 ## Hungry for more?
 
 - https://github.com/ga-wdi-exercises/timer
