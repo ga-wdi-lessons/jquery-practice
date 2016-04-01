@@ -54,46 +54,20 @@ A few things to look for:
 - create a new element
 - get value of input
 
-## We do: Complete Pseudocode for this application
+## You do: Complete Pseudocode for this application
+
+## We do: Review Pseudocode
 
 ## Break
 
-## I do: OOJS start
-
-```js
-function CashRegister(){
-  this.entries = [];
-  this.els = {
-    form: $("#entry"),
-    entries: $("#entries"),
-    total: $("#newEntry")
-  }
-}
-
-CashRegister.prototype.calculateTotal = function(){
-  var total = 0;
-  for( var i = 0; i < this.entries.length; i++ ){
-    total += this.entries[i];
-  }
-  return total;
-}
-
-var register = new CashRegister();
-register.entries.push(10.95);
-register.entries.push(1.95);
-console.log(register.calculateTotal());
-
-```
-
 ## You do:
 
-When the user submits a new number, `console.log` the number submitted, add it to the entries array, and `console.log` the new total
-
-## We do:
+DO EET
 
 Complete application functionality.
 
 ## Hungry for more?
 
-- https://github.com/ga-wdi-exercises/atm
-- https://github.com/ga-wdi-exercises/the_walker
+- https://github.com/ga-wdi-exercises/timer
+- https://github.com/ga-wdi-exercises/final-countdown
+- Refactor existing applications to jQuery.
